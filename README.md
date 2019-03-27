@@ -23,3 +23,24 @@ And in fact, since the boolean test is true when we want to return true, and fal
 public boolean aIsBigger(int a, int b) {
   return (a > b && (a - b) >= 2);
 }
+// This works
+public boolean foo() {
+  if (something) {
+    return true;
+  }
+
+  return false;
+}
+
+Or fill out the if/else structure so that every path has a return:
+
+// This works
+public boolean foo() {
+  if (something) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
